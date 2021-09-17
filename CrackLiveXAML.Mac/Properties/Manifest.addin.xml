@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionModel>
+    <Extension path = "/MonoDevelop/Ide/Commands/Tools">
+           <Command id ="LiveXAML.LiveXamlCommands.SettingsWindow" 
+               _label = "Live XAML"
+               defaultHandler = "LiveXAML.SettingsWindowHandler" />
+       </Extension>
+
+       <Extension path = "/MonoDevelop/Ide/MainMenu/Tools">
+           <CommandItem id="LiveXAML.LiveXamlCommands.SettingsWindow" />
+       </Extension>
+</ExtensionModel>

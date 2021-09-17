@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrackLiveXAML.Win", "CrackLiveXAML.Win\CrackLiveXAML.Win.csproj", "{6590E1CE-D931-4D23-817C-A39194F735F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrackLiveXAML.Mac", "CrackLiveXAML.Mac\CrackLiveXAML.Mac.csproj", "{06412D39-9341-4CF6-8E93-DCDBF8C5CC5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6590E1CE-D931-4D23-817C-A39194F735F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6590E1CE-D931-4D23-817C-A39194F735F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6590E1CE-D931-4D23-817C-A39194F735F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6590E1CE-D931-4D23-817C-A39194F735F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06412D39-9341-4CF6-8E93-DCDBF8C5CC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06412D39-9341-4CF6-8E93-DCDBF8C5CC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06412D39-9341-4CF6-8E93-DCDBF8C5CC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06412D39-9341-4CF6-8E93-DCDBF8C5CC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA1CCE1E-DBC3-4FB4-9268-F185C2530FD6}
+	EndGlobalSection
+EndGlobal

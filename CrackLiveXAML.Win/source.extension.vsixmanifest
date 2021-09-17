@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="CrackLiveXAML.12345" Version="1.1" Language="en-US" Publisher="Nguyễn Đức Toàn" />
+        <DisplayName>CrackLiveXAML</DisplayName>
+        <Description xml:space="preserve">Bản crack LiveXAML trên visual studio</Description>
+        <Icon>Resources\LiveXAMLPackage.ico</Icon>
+        <PreviewImage>Resources\LiveXAML.png</PreviewImage>
+        <Tags>Crack LiveXAML</Tags>
+    </Metadata>
+    <Installation AllUsers="true">
+      <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 19.0)" />
+      <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[15.0, 19.0)" />
+      <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0, 19.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0.28315.86,19.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+    </Assets>
+</PackageManifest>
